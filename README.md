@@ -33,30 +33,12 @@ This project is a single file Streamlit app (`chatbot.py`), supports multiple pe
 
 
 
-## Setup (quick)
-1. Clone the repo:
-```bash
+
 git clone https://github.com/IncharaaShivaprakash/ACM_GenAI_task1.git
-cd ACM-GenAI-task1
-```
-2.Create & activate a virtual environment:
-python -m venv venv
-# macOS / Linux
-source venv/bin/activate
-# Windows PowerShell
-# .\venv\Scripts\Activate.ps1
 
 
-3.Install dependencies use din the code
 
-4.Set your OpenAI API key:
-# macOS / Linux
-export OPENAI_API_KEY="sk-..."
-# Windows PowerShell
-$env:OPENAI_API_KEY = "sk-..."
-
-
-Run the app:
+to run the streamlit ui: type the following in the terminal
 streamlit run streamlit_chatbot.py
 
 
