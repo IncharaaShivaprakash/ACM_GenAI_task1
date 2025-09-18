@@ -1,0 +1,11 @@
+venv/
+*.pyc
+__pycache__/
+.env
+.env.*
+*.pkl
+.DS_Store
+.idea/      # PyCharm project files
+.vscode/
+secrets/
+
