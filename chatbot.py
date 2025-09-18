@@ -193,4 +193,5 @@ if st.button("Download conversation as text"):
     txt = "\n\n".join(lines)
     st.download_button("Click to download .txt", txt, file_name="conversation.txt", mime="text/plain")
 
-st.caption("Made for ACM Task 1 — keeps memory, supports personas, and runs as a single python file.")
+st.caption("ACM Task 1 — keeps memory, different personalities available, and runs as a single python file.")
+
